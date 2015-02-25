@@ -1,0 +1,158 @@
+def zip_code_barchart(csvlist):
+	zip_list = []
+	zip_list.append([item[126] for item in hydepark])
+	zip_list.append([item[119] for item in hydepark])
+	zip_list.append([item[112] for item in hydepark])
+	zip_list.append([item[105] for item in hydepark])
+	zip_list.append([item[98] for item in hydepark])
+	zip_list.append([item[91] for item in hydepark])
+	zip_list.append([item[84] for item in hydepark])
+	zip_list.append([item[77] for item in hydepark])
+	zip_list.append([item[70] for item in hydepark])
+	zip_list.append([item[63] for item in hydepark])
+	zip_list.append([item[56] for item in hydepark])
+	zip_list.append([item[49] for item in hydepark])
+	zip_list.append([item[42] for item in hydepark])
+	zip_list.append([item[35] for item in hydepark])
+	zip_list.append([item[28] for item in hydepark])
+
+	print type(zip_list[0])
+	'''floated_zip_list = []
+	for i in range(len(zip_list)):
+		homer_hates_math = float(zip_list[i])
+		floated_zip_list.append(homer_hates_math)
+
+
+	plt.hist(zip_list)'''
+
+zip_code_barchart(hydepark)
+
+ '''if (i[28] == ""):
+        	continue
+        else:
+            zi = i[28][0:5]
+            zipcode = int(zi)
+            zipcodes.append(zipcode)
+        if (i[35] == ""):
+        	continue
+        else:
+        	zj = i[35][0:5]
+        	zipcode1 = int(zj)
+        	zipcodes.append(zipcode1)
+        
+        if (i[42] == ""):
+        	continue
+        if (i[49] == ""):
+        	continue
+        if (i[56] == ""):
+        	continue
+        if (i[63] == ""):
+        	continue
+        if (i[70] == ""):
+        	continue
+        if (i[77] == ""):
+        	continue	
+        if (i[84] == ""):
+        	continue
+        if (i[91] == ""):
+        	continue
+        if (i[98] == ""):
+        	continue
+        if (i[105] == ""):
+        	continue
+        if (i[112] == ""):
+        	continue
+        if (i[119] == ""):
+        	continue
+        if (i[126] == ""):
+        	continue
+
+        
+            
+            zk = i[42][0:5]
+            zl = i[49][0:5]
+            zm = i[56][0:5]
+            zn = i[63][0:5]
+            zo = i[70][0:5]
+            zp = i[77][0:5]
+            zq = i[84][0:5]
+            zr = i[91][0:5]
+            zs = i[98][0:5]
+            zt = i[105][0:5]
+            zu = i[112][0:5]
+            zv = i[119][0:5]
+            zx = i[126][0:5]
+        
+        
+        zipcode2 = int(zk)
+        zipcode3 = int(zl)
+        zipcode4 = int(zm)
+        zipcode5 = int(zn)
+        zipcode6 = int(zo)
+        zipcode7 = int(zp)
+        zipcode8 = int(zq)
+        zipcode9 = int(zr)
+        zipcode10 = int(zs)
+        zipcode11 = int(zt)
+        zipcode12 = int(zu)
+        zipcode13 = int(zv)
+        zipcode14 = int(zx)
+        
+        
+        zipcodes.append(zipcode2)
+        zipcodes.append(zipcode3)
+        zipcodes.append(zipcode4)
+        zipcodes.append(zipcode5)
+        zipcodes.append(zipcode6)
+        zipcodes.append(zipcode7)
+        zipcodes.append(zipcode8)
+        zipcodes.append(zipcode9)
+        zipcodes.append(zipcode10)
+        zipcodes.append(zipcode11)
+        zipcodes.append(zipcode12)
+        zipcodes.append(zipcode13)
+        zipcodes.append(zipcode14)'''
+
+
+
+
+
+'''def zip_code_barchart(csvlist):
+	zip_list = []
+	zip_list.append(hydepark[i][28])
+
+	floated_zip_list = []
+	for i in range(len(zip_list[0])):
+		homer_hates_math = float(zip_list[0][i])
+		floated_zip_list.append(homer_hates_math)
+
+
+	plt.hist(zip_list[0])
+
+zip_code_barchart(hydepark)'''
+
+'''
+
+myzips = []
+
+def zip_code_barchart(csvlist):
+	for line in csvlist:
+		l = line.split()
+		myzips.append(float(l[126]))
+		myzips.append(float(l[119]))
+		myzips.append(float(l[112]))
+		myzips.append(float(l[105]))
+		myzips.append(float(l[98]))
+		myzips.append(float(l[91]))
+		myzips.append(float(l[84]))
+		myzips.append(float(l[77]))
+		myzips.append(float(l[70]))
+		myzips.append(float(l[63]))
+		myzips.append(float(l[56]))
+		myzips.append(float(l[49]))
+		myzips.append(float(l[42]))
+		myzips.append(float(l[35]))
+		myzips.append(float(l[28]))
+	plt.hist(myzips)
+
+zip_code_barchart(hydepark)'''
